@@ -1,0 +1,171 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+    Assigmnet One
+@media print{
+    .assign-one{
+        font-size: 40px;
+        }
+    
+}
+*/
+
+/*
+    Assignment Two
+    A big Screen*/
+@media (min-width:1200px){
+    .parent{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+
+    }
+    .parent div{
+        background-color: #eee;
+        padding: 5px;
+        width: calc(90% /4);
+
+    }
+    .parent h3{
+        color:#66bfbf;
+        font-weight: bold;
+    }
+}
+
+
+/*
+    Medium Screen*/
+@media (min-width: 992px) and (max-width: 1999px){
+    .parent{
+        display:flex;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-wrap: wrap;
+
+    }
+    .parent div{
+        background-color: #eee;
+        padding: 5px;
+        width: calc(90% / 2);
+        margin-bottom: 10px;
+        font-size: 20px;
+
+    }
+    .parent h3 {
+        color:#eb2632;
+        font-weight: bold;
+    }
+}
+
+
+
+/* 
+    Mobile Screen*/
+@media (max-width:991px){
+    .parent{
+        display:flex;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-wrap: wrap;
+
+    }
+    .parent div{
+        background-color: #eee;
+        padding: 5px;
+        width: 600px;
+        margin-bottom: 10px;
+        font-size: 20px;
+
+    }
+    .parent h3 {
+        color:black;
+        font-weight: bold;
+    }
+}
+
+
+/*
+    Assignment Three 
+    Al Large Screen
+@media (min-width:1000px) and (max-width:1400px){
+    .parent{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .parent div{
+        background-color: #eee;
+        margin-bottom: 10px;
+    }
+    .one , .four {
+        width: 92%;
+    }
+    .two , .three {
+        width:calc(88% /2);
+    }
+   
+    .parent h3 {
+        color:#66bfbf;
+        font-weight: bold;
+    }
+}
+
+
+
+   /* A Madium Screen
+ @media(min-width: 768px) and (max-width:992px)
+ {
+    .parent{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+    .parent div{
+        background-color: #eee;
+        margin-bottom: 10px;
+    }
+    .one  {
+        width: 100%;
+    }
+    .two , 
+    .three,
+    .four{
+        width: calc( 99% / 3 );
+    }
+   
+    .parent h3 {
+        color:#eb2632;
+        font-weight: bold;
+    }
+}
+
+
+
+@media  (max-width:767px ) {
+    .parent{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .parent div{
+        background-color: #eee;
+        margin-bottom: 10px;
+    }
+    .one ,.two , .three  , .four {
+        width: 100%;
+    }
+   
+    .parent h3 {
+        color:black;
+        font-weight: bold;
+    }
+}
+*/

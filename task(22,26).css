@@ -1,0 +1,53 @@
+/*  Assignment One
+.div1{
+    border: 3px solid rgb(240, 118, 47);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+.div1 p{
+    padding: inherit;
+    border: inherit;
+    background-color: #eee;
+}
+.div2{
+    border: 3px solid rgb(8, 117, 136);
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto;
+    width: 400px;
+
+}
+.div2 p{
+    padding: inherit;
+    border: inherit;
+    background-color: #eee;
+}*/
+
+/*Assignment Two
+.div3{
+    font-family: 'Open Sans', sans-serif;
+}
+.div4{
+    font-family: 'Cairo', sans-serif;
+}
+.div5{
+    font-family: 'Jomhuria', cursive;
+}*/
+
+
+
+/*Assignment Three*/
+body{
+    font-size: 20px;
+}
+.div6{
+    font-size: 3.125rem;
+}
+.div7{
+    font-size: 2.5rem;
+}
+.div8{
+font-size: 1.875rem;
+}

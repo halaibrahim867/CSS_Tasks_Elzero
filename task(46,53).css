@@ -1,0 +1,258 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+asssignment one
+div{
+    width: 110px;
+    height: 100px;
+   color: chocolate;
+   font-weight: bold;
+   background-color: #eee;
+   border-right:5px solid chocolate ;
+   border-left: 5px solid rgb(8, 208, 243);
+   border-radius: 50%;
+ 
+}
+div{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}*/
+
+
+
+/*
+assignment two
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content:space-between ;
+    
+}
+.parent div{
+    color: white;
+    background-color: tomato;
+    width: calc(90% / 3);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+}*/
+
+
+
+
+
+  
+    /*
+    Assignment Three
+.parent{
+    width:600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eee;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.parent div {
+    color: white;
+     width: calc(90% / 3);
+     padding: 10px;
+     background-color: rgb(122, 145, 155);
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     
+   
+}
+
+.one 
+ {
+  align-self: flex-end;
+   order: 6;
+}
+
+.two 
+ {
+   order: 5;
+}
+.three 
+ {
+    align-self: flex-start;
+    order: 2;
+  }
+
+.four
+ {
+   order: 3;
+}
+.five
+ {
+    order: 4;
+}*/
+
+
+/*
+  assignment four
+.parent{
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-direction: column;
+    padding: 15px;
+
+}
+.parent div{
+    background-color:rgb(65, 129, 110) ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    color: white;
+}
+.one {
+    align-self: flex-end;
+    height: 104px;
+}
+.three{
+    align-self: flex-end;
+    height: 104px;     
+}
+.two{
+    height: 60px;
+    width: 50%;
+    align-self: flex-start;
+}*/
+
+
+
+/*
+  assignment five
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    display: flex; 
+    justify-content: space-between;
+}
+.parent div{
+     color: white;
+     width: 100px;
+     height: 140px;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+.one{
+    background-color: rgb(228, 131, 20);
+    order: 2;
+
+}
+.two{
+   background-color: rgb(19, 190, 85);
+   order: 3;
+   align-self: flex-end;
+
+}
+.three{
+   background-color: rgb(88, 58, 58);
+   order: 4;
+}
+.four{
+  background-color: blueviolet;
+  order: 1;
+  align-self: flex-end;
+}*/
+
+
+
+/*
+    Assignment Six*/
+
+:root {
+    --bg-color: #eee;
+    --bg-elements: #ddd;
+    --main-margin: 10px;
+    }
+
+.page {
+    background: var(--bg-color);
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+.header {
+    margin: 0 10px;
+    display: flex;
+    }
+.logo {
+    padding: var(--main-margin);
+    background: var(--bg-elements);
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    }
+
+.links {
+    padding: var(--main-margin);
+    background: var(--bg-elements);
+    flex-basis: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 8px;
+    }
+
+.links li {
+    padding: 0 5px;
+    list-style-type: none;
+    }
+
+.main-area {
+    display: flex;
+    height: 285px;
+    }
+.content {
+    flex-basis: 70%;
+    margin: 0 var(--main-margin);
+    padding: var(--main-margin);
+    background: var(--bg-elements);
+    }
+.sidebar {
+    flex-basis: 38%;
+    padding: var(--main-margin);
+    background: var(--bg-elements);
+    margin-right: var(--main-margin);
+    }
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--main-margin);
+    padding: var(--main-margin);
+    background: var(--bg-elements);
+    }

@@ -1,0 +1,65 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Assignment One
+div.main.red{
+    color :red;
+}*/
+
+/*
+    Assignmnet Two
+.parent >.child + div:last-child{
+    color: red;
+}*/
+
+
+/* 
+    Assignment Three
+div:first-of-type +.parent >.baby
+    {
+        font-weight: bold;
+        color:red;
+    }*/
+
+
+/*Assignment Four
+[title]:not(.no-need , .parent div){
+   color: red;;
+}*/
+
+   
+/*
+    Assignmnet Five
+div:nth-of-type(2) div {
+    color: red;
+}*/
+
+
+
+/*
+    Assignmnet Six
+div:first-of-type :nth-child(3) , 
+div:nth-of-type(2) :nth-child(4){
+    color:red;
+}*/
+
+
+/*
+    Assignment Seven
+div:first-of-type :nth-child(5){
+    color:red;
+    font-weight: bold;
+}
+*/
+
+
+/*
+    Assignment Eight 3n هي عبارخ عن عداد لو حطيت الرقم ب 1 بيبدا من اولطفل  ولو حطيت ب 0
+    */
+div :not(h3, div:nth-child(3n+1)){
+    color: red;
+    font-weight:bold ;
+}
