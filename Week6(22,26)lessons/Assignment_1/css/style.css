@@ -1,0 +1,25 @@
+.div1{
+    border: 3px solid rgb(240, 118, 47);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+.div1 p{
+    padding: inherit;
+    border: inherit;
+    background-color: #eee;
+}
+.div2{
+    border: 3px solid rgb(8, 117, 136);
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto;
+    width: 400px;
+
+}
+.div2 p{
+    padding: inherit;
+    border: inherit;
+    background-color: #eee;
+}
