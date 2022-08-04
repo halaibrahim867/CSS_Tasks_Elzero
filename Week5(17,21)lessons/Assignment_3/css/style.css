@@ -1,0 +1,15 @@
+div{
+    max-width: 400px;
+    padding: 10px;
+    background-color: #eee;
+    margin: 10px;
+}
+.div2{
+    white-space: nowrap;
+    overflow: hidden;
+}
+.div3{
+    white-space: nowrap;
+     overflow: hidden;
+    text-overflow: ellipsis;
+}
