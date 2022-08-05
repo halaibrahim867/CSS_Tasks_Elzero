@@ -1,0 +1,34 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.layout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 30px 1fr 30px;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    color: white;
+}
+.layout header{
+    background-color:rgb(16, 155, 219) ;
+    grid-column: 1/4;
+    padding: 5px;
+}
+.layout section{
+    background-color: orangered;
+    grid-column: 1/3;
+    padding: 5px;
+}
+.layout aside{
+    background-color: rgb(100, 135, 147);
+    grid-column: 3/4;
+    padding: 5px;
+}
+.layout footer{
+    background-color: rgb(9, 130, 134);
+    grid-column: 1/4;
+    padding: 5px;
+}
