@@ -1,0 +1,75 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+.parent{
+    position:relative;
+    width: 550px;
+    margin: 10px auto;
+    height: 200px;
+    padding: 10px;
+    display: inline;  
+}
+.div1 {
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 250px;
+    background-color: #eee;
+    margin: 20px 35px 0px;
+}
+.div2{
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 250px;
+    background-color: #eee;
+    margin: 20px 15px 0px;
+}
+
+.child1{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(45, 183, 224);
+    color: white;
+    border-radius:5px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.child2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 14px 22px 9px 22px;
+    background-color: #ccc;
+    font-size: 30px;
+    line-height: 135px;
+    text-align: center;
+}
+.div2::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(45, 183, 224);
+    top: 0px;
+    left: -30px;
+}
+
+.div2::after{
+    content: "or";
+    position: absolute;
+    width: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    top: 90px;
+    left: -44px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(45, 183, 224);
+
+}
