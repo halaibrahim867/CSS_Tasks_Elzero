@@ -1,0 +1,10 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div :not(h3, div:nth-child(3n+1)){
+    color: red;
+    font-weight:bold ;
+}
