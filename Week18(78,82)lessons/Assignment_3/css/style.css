@@ -1,0 +1,11 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div:first-of-type +.parent >.baby
+    {
+        font-weight: bold;
+        color:red;
+    }
