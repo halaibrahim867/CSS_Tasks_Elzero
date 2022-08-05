@@ -1,0 +1,44 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root{
+    --mainbackcolor:#009688;
+    --maincolor:white;
+}
+h1{
+    position: relative;
+    width: 150px;
+    padding: 20px;
+    background-color: var(--mainbackcolor);
+    color: var(--maincolor);
+    margin: 50px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1::after{
+    content: "";
+    background-color: var(--mainbackcolor);
+    position: absolute;
+    top: 0;
+    left: -50px;
+    height: 100%;
+    transform: skewX(23deg);
+    width:25px; 
+
+}
+h1::before{
+    content: "";
+    position: absolute;
+    background-color: var(--mainbackcolor);
+    top: 0;
+    left: -18px;
+    transform:skewX(23deg) ;
+    z-index: -1;
+    height: 100%;
+    width: 25%;
+
+}
