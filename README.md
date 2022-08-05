@@ -76,3 +76,12 @@ Week1 ,lessons 1:4
             /* Bad*/
             .usernameprofile {
             }
+
+Week16 lessons 68:73
+      Assignment 3:
+            transform:scaleX(3)
+            transform:skewY(0.2679)
+            transform:skewX(0)
+            transform:scaleY(3)
+            transform:translateX(20)
+            transform:translateY(100)
