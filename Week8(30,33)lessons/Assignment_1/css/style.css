@@ -1,0 +1,30 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
+}
+.green{
+    position: absolute;
+    background-color: black;
+    top: 20px;
+    
+      
+}
+.red{
+    background-color: rgb(11, 214, 214);
+    position: absolute;
+}
+.blue{
+    background-color: rgb(6, 145, 138);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
+.black{
+    background-color: rgb(218, 67, 8);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
