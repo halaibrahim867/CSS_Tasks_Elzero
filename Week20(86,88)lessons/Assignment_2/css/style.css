@@ -1,0 +1,49 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div{
+    position: relative;
+    background-color: #ddd;
+    width: 600px;
+    color:black;
+    padding: 30px;
+    margin: 5% auto;
+    font-size: 25px;
+    position: relative;
+}
+
+.arrow.top::before{
+    content: "";
+    border: 20px solid #ddd;
+    position: absolute;
+    left: 48%;
+    top:-16px;
+    transform: rotate(45deg);
+}
+.arrow.bottom::before{
+    content: "";
+    border: 20px solid #ddd;
+    position: absolute;
+    left: 48%;
+    bottom:-16px;
+    transform: rotate(45deg);
+}
+.arrow.right::before{
+    content: "";
+    border: 20px solid #ddd;
+    position: absolute;
+    right:-16px;
+    top:25px;
+    transform: rotate(45deg);
+}
+.arrow.left::before{
+    content: "";
+    border: 20px solid #ddd;
+    position: absolute;
+    left:-16px;
+    top:25px;
+    transform: rotate(45deg);
+}
