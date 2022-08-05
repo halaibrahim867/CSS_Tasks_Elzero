@@ -1,0 +1,43 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1{
+    position:relative;
+    width: 150px;
+    background-color:var(--mainbackcolor) ;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: var(--maincolor);
+    margin: 50px auto;
+    padding: 20px;
+}
+:root{
+    --mainbackcolor: #F85825;
+    --maincolor: white;
+}
+h1::after{
+    content: "";
+    background-color: var(--mainbackcolor);
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: skew(-12deg ,-12deg);
+    z-index: -1;
+}
+h1::before{
+    content: "";
+    background-color:var(--mainbackcolor) ;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: skew(12deg , 12deg);
+    z-index: -1;
+}
