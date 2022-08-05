@@ -1,0 +1,77 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+    border-radius: 50%;
+    border: 5px solid #059ae3;
+    border-bottom-color: transparent;
+    animation-name: change-pos;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div::before{
+    content: "";
+    position:absolute;
+    width: 55px;
+    height: 55px;
+    top: -13px;
+    left: -13px;
+    border: 5px solid #ffc72ef6;
+    border-radius: 50%;
+    border-bottom-color:transparent ;
+    animation-name:change-pos;
+    animation-fill-mode: forwards;
+    animation-delay: .2s;
+    animation-duration: 2s;
+
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   
+}
+div::after{
+    content: "";
+    position:absolute;
+    top:-20px ;
+    left: -20px;
+    border: 5px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-bottom-color:transparent ;
+    animation-name: change-pos;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    animation-duration: 3s;
+    animation-delay: .5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes change-pos{
+   
+    to{
+        transform: rotate(360deg);
+    }
+}
+div:hover ,
+div:hover::after , 
+div:hover::before
+{
+    animation-play-state: running;
+}
