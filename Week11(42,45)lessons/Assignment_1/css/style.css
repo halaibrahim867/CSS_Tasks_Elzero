@@ -1,0 +1,36 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.parent{
+
+    background-color: #eee;
+    text-align: center;
+    transition-duration: .5s ;
+    margin: 200px auto;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+    transition: margin-top 0.5s;
+    transition-timing-function: ease-in-out;
+    
+}
+.parent:hover {
+    margin-top: 100px;
+}
+.parent:hover .child{
+    margin-top: 50px;
+ }
+
+.child{
+    background-color: rgb(192, 189, 189);
+    text-align: center;
+    transition: margin-top 0.5s 0.5s ;
+    transition-timing-function: ease-in-out;
+    position: absolute; 
+    padding:20px ;
+    margin: 20px auto; 
+    
+}
