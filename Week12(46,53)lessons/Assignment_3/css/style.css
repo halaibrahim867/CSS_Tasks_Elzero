@@ -1,0 +1,51 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.parent{
+    width:600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eee;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.parent div {
+    color: white;
+     width: calc(90% / 3);
+     padding: 10px;
+     background-color: rgb(122, 145, 155);
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     
+   
+}
+
+.one 
+ {
+  align-self: flex-end;
+   order: 6;
+}
+
+.two 
+ {
+   order: 5;
+}
+.three 
+ {
+    align-self: flex-start;
+    order: 2;
+  }
+
+.four
+ {
+   order: 3;
+}
+.five
+ {
+    order: 4;
+}
