@@ -1,0 +1,28 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+span{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    background-color: rgba(207, 199, 199, 0.815);
+    border-radius: 50%;
+    border: 5px solid black ;
+    border-right-color: transparent;
+    animation-name: circle-oo;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+
+}
+@keyframes circle-oo{
+    to{
+        transform: rotate(360deg);
+    }
+}
