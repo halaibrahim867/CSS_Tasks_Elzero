@@ -1,0 +1,17 @@
+div p {
+    display: none;
+}
+
+div{
+    content:"";
+    margin: auto;
+    width: 400px;
+    background-color: #ccc !important;
+    color: black !important;
+    font-size: 20px !important;
+    text-align: center !important ;
+    border: none !important;
+}
+div::after{
+    content: "Elzero";
+}
