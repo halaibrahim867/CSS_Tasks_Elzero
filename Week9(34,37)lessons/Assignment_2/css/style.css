@@ -1,0 +1,21 @@
+div{
+    background-color: #ccc;
+    width:(100%-200px);
+    position: absolute;
+    left: 40%;
+    padding: 10px;
+
+}
+div::before{
+    content: "1";
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: -11px;
+    bottom: 4px;
+    background-color: red;
+    color: white;
+    width: 3px;
+    height: 13px;
+    padding: 8px;
+}
